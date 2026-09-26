@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# MacOS
+.DS_Store
